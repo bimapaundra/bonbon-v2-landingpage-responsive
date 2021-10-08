@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bonbon V2</title>
 
     <!-- bootstrap v.4 css -->
@@ -37,9 +37,9 @@
 
 <body>
 
-    <section id="title">
+    <section id="title" class="bg2">
 
-        <div class="container-fluid bg2">
+        <div class="container-fluid">
 
             <!-- Nav Bar -->
 
@@ -47,6 +47,11 @@
                 <a class="navbar-brand" href="">
                     <img src="img-v2/small.svg" alt="bonbon-logo">
                 </a>
+                <button type="button" class="btn btn-primary nav-link register-button-mobile">
+                    <a target="_blank" rel="noopener noreferrer" href="http://demo.bonbon.co.id/register">
+                        Register
+                    </a>
+                </button>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -111,27 +116,61 @@
     <section id="features">
 
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-3">
+            <div class="row features-non-mobile">
+                <div class="col-lg-3 col-md-6">
                     <img src="img-v2/features1.svg" alt="features-1">
                     <h3 class="caption">Streamline Operations</h3>
                     <p class="sub-caption">Improve efficiency and reduce manpower cost by digitizing your F&B operations
                         and bookkeeping.
                     </p>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6">
                     <img src="img-v2/features2.svg" alt="features-2">
                     <h3 class="caption">Enhance social experience</h3>
                     <p class="sub-caption">Enable contact-less ordering and payment for a hassle free customer
                         experience</p>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6">
                     <img src="img-v2/features3.svg" alt="features-3">
                     <h3 class="caption">Connect with customers</h3>
                     <p class="sub-caption">Know your customer needs and preferences to build positive relationships</p>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6">
                     <img src="img-v2/features4.svg" alt="features-4">
+                    <h3 class="caption">Expand your market reach</h3>
+                    <p class="sub-caption">Leverage our tools to promote your business to potential customers</p>
+                </div>
+            </div>
+
+            <div class="row features-mobile">
+                <div class="col-3">
+                    <img src="img-v2/features1.svg" alt="features-1">
+                </div>
+                <div class="col-9">
+                    <h3 class="caption">Streamline Operations</h3>
+                    <p class="sub-caption">Improve efficiency and reduce manpower cost by digitizing your F&B operations
+                        and bookkeeping.
+                    </p>
+                </div>
+                <div class="col-3">
+                    <img src="img-v2/features2.svg" alt="features-2">
+                </div>
+                <div class="col-9">
+                    <h3 class="caption">Enhance social experience</h3>
+                    <p class="sub-caption">Enable contact-less ordering and payment for a hassle free customer
+                        experience</p>
+                </div>
+                <div class="col-3">
+                    <img src="img-v2/features3.svg" alt="features-3">
+                </div>
+                <div class="col-9">
+                    <h3 class="caption">Connect with customers</h3>
+                    <p class="sub-caption">Know your customer needs and preferences to build positive relationships</p>
+                </div>
+                <div class="col-3">
+                    <img src="img-v2/features4.svg" alt="features-4">
+                </div>
+                <div class="col-9">
                     <h3 class="caption">Expand your market reach</h3>
                     <p class="sub-caption">Leverage our tools to promote your business to potential customers</p>
                 </div>
@@ -145,7 +184,7 @@
     <section id="services">
 
         <div class="container-fluid">
-            <div class="row">
+            <div class="row services-non-mobile">
                 <div class="col-md-6 services-box">
                     <h3>
                         Reliable Point of sale
@@ -209,6 +248,71 @@
                     <img class="services-img" src="img-v2/tablet_pc 1.png" alt="">
                 </div>
             </div>
+
+            <div class="row services-mobile">
+                <div class="col-12 services-box">
+                    <h3>
+                        Reliable Point of sale
+                    </h3>
+                    <img class="hr-img" src="img-v2/Rectangle 32.svg" alt="">
+                    <p>
+                        Neat and simple to use bookkeeping </br>
+                        feature-rich POS system for every restaurant needs
+                    </p>
+                </div>
+                <div class="col-12">
+                    <img class="services-img" src="img-v2/tablet3 1.png" alt="">
+                </div>
+                <div class="col-12 services-box">
+                    <h3>
+                        Contactless Ordering and Payment
+                    </h3>
+                    <img class="hr-img" src="img-v2/Rectangle 32.svg" alt="">
+                    <p>
+                        Enhance social experience </br>
+                        Improve payment tracking
+                    </p>
+                </div>
+                <div class="col-12">
+                    <img class="services-img" src="img-v2/mask.png" alt="">
+                </div>
+                <div class="col-12 services-box">
+                    <h3>
+                        Customer Relationship Management
+                    </h3>
+                    <img class="hr-img" src="img-v2/Rectangle 32.svg" alt="">
+                    <p>
+                        Expand, Manage and Build customer loyalty
+                    </p>
+                </div>
+                <div class="col-12">
+                    <img class="services-img" src="img-v2/tablet-customer 1.png" alt="">
+                </div>
+                <div class="col-12 services-box">
+                    <h3>
+                        Reservation and Table Management
+                    </h3>
+                    <img class="hr-img" src="img-v2/Rectangle 32.svg" alt="">
+                    <p>
+                        Reduce no shows with little effort
+                    </p>
+                </div>
+                <div class="col-12">
+                    <img class="services-img" src="img-v2/tablet-quickorder 1.png" alt="">
+                </div>
+                <div class="col-12 services-box">
+                    <h3>
+                        Inventory Management
+                    </h3>
+                    <img class="hr-img" src="img-v2/Rectangle 32.svg" alt="">
+                    <p>
+                        Prevent expenses mismanagement
+                    </p>
+                </div>
+                <div class="col-12">
+                    <img class="services-img" src="img-v2/tablet_pc 1.png" alt="">
+                </div>
+            </div>
         </div>
 
     </section>
@@ -226,12 +330,12 @@
                 </div>
                 <div class="col-lg-12">
                     <center>
-                        <img src="img/bonbon-hr.png" alt="line">
+                        <img class="bonbon-hr" src="img/bonbon-hr.png" alt="line">
                     </center>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-md-6">
                     <div class="row advan-box1">
                         <div class="col-12 box-caption">
                             Benefit for Business
@@ -290,7 +394,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-md-6">
                     <div class="row advan-box2">
                         <div class="col-12 box-caption">
                             Benefit for Customer
@@ -367,26 +471,26 @@
                 </div>
                 <div class="col-lg-12">
                     <center>
-                        <img src="img/bonbon-hr.png" alt="line">
+                        <img class="bonbon-hr" src="img/bonbon-hr.png" alt="line">
                     </center>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 list-partners">
+                <div class="col-sm-4 list-partners">
                     <img src="img-v2/toped.svg" alt="toped">
                 </div>
-                <div class="col-lg-4 list-partners">
+                <div class="col-sm-4 list-partners">
                     <img src="img-v2/gojek.svg" alt="gojek">
                 </div>
-                <div class="col-lg-4 list-partners">
+                <div class="col-sm-4 list-partners">
                     <img src="img-v2/traveloka.svg" alt="traveloka">
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-6 list-partners">
+                <div class="col-sm-6 list-partners">
                     <img src="img-v2/hakata.svg" alt="hakata">
                 </div>
-                <div class="col-lg-6 list-partners">
+                <div class="col-sm-6 list-partners">
                     <img src="img-v2/mujigae.svg" alt="mijugae">
                 </div>
             </div>
@@ -408,7 +512,7 @@
                 </div>
                 <div class="col-lg-12">
                     <center>
-                        <img src="img/bonbon-hr.png" alt="line">
+                        <img class="bonbon-hr" src="img/bonbon-hr.png" alt="line">
                     </center>
                 </div>
             </div>
@@ -421,10 +525,10 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="row testimonial-box">
-                            <div class="col-sm-6 testimonial-content">
+                            <div class="col-md-6 col-sm-12 testimonial-content">
                                 <img class="testi-img" src="img/insideBusiness.png" alt="testimony-1">
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-md-6 col-sm-12">
                                 <p class="review">
                                     Senang sekali bisa menggunakan BonBon Back Office, karena pendataan bisnis kami
                                     semakin
@@ -531,33 +635,39 @@
                 </div>
                 <div class="col-lg-12">
                     <center>
-                        <img src="img/bonbon-hr.png" alt="line">
+                        <img class="bonbon-hr" src="img/bonbon-hr.png" alt="line">
                     </center>
                 </div>
             </div>
             <div class="row maps-content">
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-md-12">
                     <img src="img/MAPS.png" alt="map-img">
                 </div>
-                <div class="col-lg-4">
-                    <h3>
-                        Office Address
-                    </h3>
-                    <p>
-                        BonBon Technology Headquarters 315 West Sam Houston Pkwy North Suite 100 Fatmawati, Jakarta
-                        Selatan, DKI Jakarta
-                    </p>
-                    <p>
-                        Marketing Office 315 West Sam Houston Pkwy North Suite 100 Fatmawati, Jakarta Selatan, DKI
-                        Jakarta
-                    </p>
-                    <h3>
-                        Mail Address
-                    </h3>
-                    <p>
-                        marketing@bonbon.co.id </br>
-                        help@bonbon.co.id
-                    </p>
+                <div class="col-lg-4 col-md-12">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-6">
+                            <h3>
+                                Office Address
+                            </h3>
+                            <p>
+                                BonBon Technology Headquarters 315 West Sam Houston Pkwy North Suite 100 Fatmawati, Jakarta
+                                Selatan, DKI Jakarta
+                            </p>
+                            <p>
+                                Marketing Office 315 West Sam Houston Pkwy North Suite 100 Fatmawati, Jakarta Selatan, DKI
+                                Jakarta
+                            </p>
+                        </div>
+                        <div class="col-lg-12 col-md-6">
+                            <h3>
+                                Mail Address
+                            </h3>
+                            <p>
+                                marketing@bonbon.co.id </br>
+                                help@bonbon.co.id
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -569,26 +679,26 @@
 
         <div class="container-fluid" style="padding: 3% 10%;">
             <div class="row">
-                <div class="col-3 info-box1">
+                <div class="col-lg-3 col-md-3 info-box1">
                     <center>
-                        <img src="img/bonbon_logo-small.png" alt="bonbon-logo" style="width: 40%;">
+                        <img class="info-img" src="img/bonbon_logo-small.png" alt="bonbon-logo">
                     </center>
                 </div>
-                <div class="col-3 info-box2">
+                <div class="col-lg-3 col-md-3 info-box2">
                     <h3>
                         Products
                     </h3>
                     <p>
-                        BonBon User App
+                        <a style="color: #d9d9d9;" target="_blank" rel="noopener noreferrer" href="http://pwa-demo.bonbon.co.id/">BonBon User App</a>
                     </p>
                     <p>
-                        Backoffice Services
+                        <a style="color: #d9d9d9;" target="_blank" rel="noopener noreferrer" href="http://demo.bonbon.co.id/">Backoffice Services</a>
                     </p>
                     <p>
                         Integration
                     </p>
                 </div>
-                <div class="col-3 info-box3">
+                <div class="col-lg-3 col-md-6 info-box3 info-features">
                     <h3>
                         Features
                     </h3>
@@ -608,7 +718,7 @@
                         Inventory Management
                     </p>
                 </div>
-                <div class="col-3 info-box4">
+                <div class="col-lg-3 col-md-6 info-box4">
                     <h3>
                         Download BonBon App
                     </h3>
@@ -638,14 +748,14 @@
         </div>
     </section>
 
-    <footer id="footer" style="background: #04713D;">
+    <footer id="footer">
         <div class="container-fluid" style="padding: 1% 10%;">
             <div class="row">
                 <div class="col-12">
-                    <p style="color: white; display: inline;">
+                    <p>
                         Copyright © 2022 BonBon Technologies
                     </p>
-                    <img src="img-v2/ffo.svg" alt="" style="float: right;">
+                    <img class="footer-img" src="img-v2/ffo.svg" alt="">
                 </div>
             </div>
         </div>
