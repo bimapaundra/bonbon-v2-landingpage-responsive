@@ -33,6 +33,29 @@
 
     <!-- Script fontawesome galenonyx account -->
     <script src="https://kit.fontawesome.com/5ef1fc4b5b.js" crossorigin="anonymous"></script>
+
+    <script>
+        // Initialize and add the map
+        function initMap() {
+            // The location of Uluru
+            const uluru = { lat: -6.2204026731068875, lng: 106.82502943855813 };
+            // The map, centered at Uluru
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 4,
+                center: uluru,
+            });
+            // The marker, positioned at Uluru
+            const marker = new google.maps.Marker({
+                position: uluru,
+                map: map,
+            });
+        }
+    </script>
+
+    <!-- Script google maps api key -->
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHrq6qbvOBLAQPsqVgwQWjD--u8jA0y4o&callback=initMap">
+        </script>
 </head>
 
 <body>
@@ -68,7 +91,7 @@
                             <a class="nav-link" href="#advantages">Advantages</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link" href="#pricing">Pricing</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#about">About</a>
@@ -601,6 +624,28 @@
 
     </section>
 
+    <section id="pricing">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 pricing-text">
+                    <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
+                    <p>
+                        Donec et justo finibus, porta diam eget, varius massa. Suspendisse pharetra, nisl nec sagittis
+                        egestas, arcu lorem finibus enim, tincidunt mollis orci ipsum laoreet mauris
+                    </p>
+                    <button type="button" class="btn btn-primary btn-lg download-buttons">
+                        <a target="_blank" rel="noopener noreferrer" href="http://demo.bonbon.co.id/register">
+                            Get Free Trial
+                        </a>
+                    </button>
+                </div>
+                <div class="col-lg-6">
+                    <img class="price-img" src="img-v2/pricing-img.png" alt="pricing">
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- About -->
 
     <section id="about">
@@ -640,9 +685,10 @@
                 </div>
             </div>
             <div class="row maps-content">
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-12" id="map"></div>
+                <!-- <div class="col-lg-6 col-md-12">
                     <img src="img/MAPS.png" alt="map-img">
-                </div>
+                </div> -->
                 <div class="col-lg-4 col-md-12">
                     <div class="row">
                         <div class="col-lg-12 col-md-6">
@@ -650,11 +696,13 @@
                                 Office Address
                             </h3>
                             <p>
-                                BonBon Technology Headquarters 315 West Sam Houston Pkwy North Suite 100 Fatmawati, Jakarta
+                                BonBon Technology Headquarters 315 West Sam Houston Pkwy North Suite 100 Fatmawati,
+                                Jakarta
                                 Selatan, DKI Jakarta
                             </p>
                             <p>
-                                Marketing Office 315 West Sam Houston Pkwy North Suite 100 Fatmawati, Jakarta Selatan, DKI
+                                Marketing Office 315 West Sam Houston Pkwy North Suite 100 Fatmawati, Jakarta Selatan,
+                                DKI
                                 Jakarta
                             </p>
                         </div>
@@ -689,10 +737,12 @@
                         Products
                     </h3>
                     <p>
-                        <a style="color: #d9d9d9;" target="_blank" rel="noopener noreferrer" href="http://pwa-demo.bonbon.co.id/">BonBon User App</a>
+                        <a style="color: #d9d9d9;" target="_blank" rel="noopener noreferrer"
+                            href="http://pwa-demo.bonbon.co.id/">BonBon User App</a>
                     </p>
                     <p>
-                        <a style="color: #d9d9d9;" target="_blank" rel="noopener noreferrer" href="http://demo.bonbon.co.id/">Backoffice Services</a>
+                        <a style="color: #d9d9d9;" target="_blank" rel="noopener noreferrer"
+                            href="http://demo.bonbon.co.id/">Backoffice Services</a>
                     </p>
                     <p>
                         Integration
@@ -751,11 +801,24 @@
     <footer id="footer">
         <div class="container-fluid" style="padding: 1% 10%;">
             <div class="row">
-                <div class="col-12">
+                <div class="col-lg-6 col-md-8">
                     <p>
                         Copyright © 2022 BonBon Technologies
                     </p>
-                    <img class="footer-img" src="img-v2/ffo.svg" alt="">
+                </div>
+                <div class="col-lg-6 col-md-4 socmed">
+                    <a class="footer-img" href="https://www.facebook.com/bonbon.indo" target="_blank"
+                        rel="noopener noreferrer">
+                        <img src="img-v2/facebook-footer.png" alt="">
+                    </a>
+                    <a class="footer-img" href="https://www.instagram.com/bonbon.indo/?utm_medium=copy_link"
+                        target="_blank" rel="noopener noreferrer">
+                        <img src="img-v2/instagram-footer.png" alt="">
+                    </a>
+                    <a class="footer-img" href="https://twitter.com/bonbon_indo" target="_blank"
+                        rel="noopener noreferrer">
+                        <img src="img-v2/twitter-footer.png" alt="">
+                    </a>
                 </div>
             </div>
         </div>
