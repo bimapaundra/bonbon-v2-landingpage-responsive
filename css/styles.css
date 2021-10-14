@@ -9,7 +9,7 @@ html {
 
 @media (max-width: 750px) {
   .bg2 {
-    background-image: url(../img-v2/slider-2wide2.png);
+    background-image: url(../img/slider-2wide2.png);
 
     height: 100%;
 
@@ -289,8 +289,12 @@ html {
     padding-top: 50px;
   }
 
+  #partners .list-partners img {
+    width: 50%;
+  }
+
   #testimonials {
-    background: url(../img-v2/backgroundijo\ 1.png);
+    background: url(../img/backgroundijo\ 1.png);
     text-align: center;
   }
 
@@ -527,6 +531,7 @@ html {
 
   #info .info-img {
     float: left;
+    width: 30%;
   }
 
   #info .info-features {
@@ -582,7 +587,7 @@ html {
 
 @media (min-width: 750px) {
   .bg2 {
-    background-image: url(../img-v2/title-responsive2.png);
+    background-image: url(../img/title-responsive2.png);
 
     height: 100%;
 
@@ -839,8 +844,12 @@ html {
     padding-top: 50px;
   }
 
+  #partners .list-partners img {
+    width: 50%;
+  }
+
   #testimonials {
-    background: url(../img-v2/backgroundijo\ 1.png);
+    background: url(../img/backgroundijo\ 1.png);
     text-align: center;
   }
 
@@ -1077,7 +1086,7 @@ html {
   }
 
   #info .info-img {
-    width: 80%;
+    width: 50%;
     float: left;
   }
 
@@ -1137,7 +1146,7 @@ html {
   }
 
   .bg2 {
-    background-image: url(../img-v2/title-responsive2.png);
+    background-image: url(../img/title-responsive2.png);
 
     height: 100%;
 
@@ -1393,8 +1402,12 @@ html {
     padding-top: 50px;
   }
 
+  #partners .list-partners img {
+    width: 50%;
+  }
+
   #testimonials {
-    background: url(../img-v2/backgroundijo\ 1.png);
+    background: url(../img/backgroundijo\ 1.png);
     text-align: center;
   }
 
