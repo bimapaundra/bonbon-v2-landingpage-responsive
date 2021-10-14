@@ -1188,21 +1188,21 @@ html {
 
   #title .title-text {
     margin-top: 100px;
-    padding-right: 100px;
+    /* padding-right: 100px; */
   }
 
   #title h1 {
     font-family: "Montserrat";
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 2.875rem;
+    line-height: 3.5rem;
     font-weight: bold;
     color: #ffffff;
   }
 
   #title p {
-    font-size: 12px;
-    line-height: 20px;
-    padding-right: 5%;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    /* padding-right: 5%; */
     color: #ffffff;
   }
 
