@@ -1193,16 +1193,15 @@ html {
 
   #title h1 {
     font-family: "Montserrat";
-    font-size: 2.875rem;
+    font-size: 2.175rem;
     line-height: 3.5rem;
     font-weight: bold;
     color: #ffffff;
   }
 
   #title p {
-    font-size: 1.125rem;
+    font-size: 0.975rem;
     line-height: 1.75rem;
-    /* padding-right: 5%; */
     color: #ffffff;
   }
 
@@ -1404,6 +1403,19 @@ html {
 
   #partners .list-partners img {
     width: 50%;
+    position: relative;
+  }
+
+  #partners .img-center-div {
+    align-self: center;
+  }
+
+  #partners .manman {
+    left: 20%;
+  }
+
+  #partners .tera {
+    right: 20%;
   }
 
   #testimonials {
@@ -1714,7 +1726,7 @@ html {
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 20px;
   text-align: center;
   color: #595959;
