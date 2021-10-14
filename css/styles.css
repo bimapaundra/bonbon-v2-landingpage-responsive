@@ -848,6 +848,18 @@ html {
     width: 50%;
   }
 
+  #partners .img-center-div {
+    align-self: center;
+  }
+
+  #partners .manman {
+    left: 20%;
+  }
+
+  #partners .tera {
+    right: 20%;
+  }
+
   #testimonials {
     background: url(../img/backgroundijo\ 1.png);
     text-align: center;
@@ -951,7 +963,7 @@ html {
 
   #pricing .price-img {
     position: relative;
-    right: 15%;
+    width: inherit;
   }
 
   #pricing h1 {
@@ -1379,6 +1391,10 @@ html {
     padding-right: 20px;
   }
 
+  #advantages .subtitle {
+    font-size: 16px;
+  }
+
   #partners {
     background: linear-gradient(134.36deg, #3fffa3 1.7%, #f2ffee 68.86%);
     text-align: center;
@@ -1523,15 +1539,15 @@ html {
 
   #pricing h1 {
     font-family: "Montserrat";
-    font-size: 20px;
+    font-size: 24px;
     line-height: 36px;
     font-weight: bold;
     color: white;
   }
 
   #pricing p {
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 28px;
     padding-right: 5%;
     color: white;
   }
@@ -1571,7 +1587,7 @@ html {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 24px;
     line-height: 28px;
     color: #000000;
   }
@@ -1580,8 +1596,8 @@ html {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 22px;
+    font-size: 16px;
+    line-height: 28px;
     color: #595959;
   }
 
