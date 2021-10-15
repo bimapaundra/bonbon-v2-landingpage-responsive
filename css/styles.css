@@ -85,7 +85,7 @@ html {
 
   #title h1 {
     font-family: "Montserrat";
-    font-size: 20px;
+    font-size: 22px;
     line-height: 30px;
     font-weight: bold;
     color: #ffffff;
@@ -93,7 +93,7 @@ html {
   }
 
   #title p {
-    font-size: 10px;
+    font-size: 14px;
     line-height: 20px;
     color: #ffffff;
     /* padding: 0 10% 3%; */
@@ -137,12 +137,12 @@ html {
 
   #features .caption {
     text-align: left;
-    font-size: 14px;
+    font-size: 16px;
   }
 
   #features .sub-caption {
     text-align: left;
-    font-size: 10px;
+    font-size: 12px;
   }
 
   #features .container-fluid {
